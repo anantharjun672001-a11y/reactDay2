@@ -1,9 +1,15 @@
 import React from 'react';
+import Home from './Components/Home';
+import Head from './components/Head';
+import Foot from './components/Foot';
+
 
 const App = () => {
   return (
     <div>
-      <h1>REact Day2</h1>
+        <Home/>
+        <Head/>
+        <Foot/>
     </div>
   );
 };
